@@ -19,8 +19,35 @@ body {
 }
 
 nav {
+  background: #fff;
+}
+
+.logo {
+  position: absolute;
+}
+
+.first-nav {
 
 }
+
+.first-nav-right {
+  float: right;
+  padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+/*********************************************
+ *********************************************
+ ********  Media Queries Breakpoints  ********
+ *********************************************
+ ********************************************/
+
 
 @media all and (max-width: 768px) {
   body{
