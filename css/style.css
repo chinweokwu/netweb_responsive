@@ -11,8 +11,31 @@ html {
   }
   
 body {
-    background-color: ;
-    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
-    font-size: 14px;
-    width: 100%;
+  background-color: yellow;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-size: 14px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+nav {
+
+}
+
+@media all and (max-width: 768px) {
+  body{
+    background-color: blue;  
+  } 
+}
+
+@media all and (max-width: 1024px) {
+  body{
+        background-color: red;  
+      } 
+}
+
+@media all and (min-width: 1024px) { 
+  body{
+        background-color: orange;  
+      } 
 }
