@@ -75,7 +75,7 @@ div.ad {
 
 .ad a {
   display: inline-block;
-  color: black;
+  color: #555
 }
 
 .first-nav > ul, .second-nav > ul, .special, .nav-mobile {
@@ -91,25 +91,31 @@ div.ad {
 }
 
 .icons li a{
-  display: block;
-  border-right: 1px solid red;
-  background: cornflowerblue;
+  display: inline-block;
+  float: left;  
   height: 48px;
   width: 48px;
   padding: 16px;
   list-style-type: none;
+  position: relative;
+}
+
+.search-icon{
+  border-right: 1px solid gray;
 }
 
 .icons span {
    background-color: #ff4422;
-   width: 22px;
+   width: 20px;
    height: 2px;
    display: inline-block;
    margin: -1px 0 0;
    padding: 0;
-   opacity: 1!important;
    line-height: 0;
-
+   position: absolute;
+   top: 50%;
+   left: 14px;
+   vertical-align: baseline;
 }
 
 /*********************************************
