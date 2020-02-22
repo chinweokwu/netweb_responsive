@@ -18,7 +18,9 @@ a{
 ul, li {
   list-style-type: none;
 }
-
+img {
+  max-width: 100%;
+}
 body {
   background-color: yellow;
   font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
@@ -118,6 +120,60 @@ div.ad {
    vertical-align: baseline;
 }
 
+footer  {
+  background-color: #131313;
+  text-align: center;
+}
+
+footer .wrapper{
+  padding: 0 20px;
+}
+
+footer .links {
+  padding-top:42px;
+  padding-bottom: 28px
+}
+footer .social ul{
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+  margin:0 auto;
+  margin-bottom: 21px;
+}
+
+footer .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #555;
+  margin: 0 8px;
+}
+
+footer a {
+  color: white;
+}
+footer .legal {
+  background-color: #000;
+  padding: 39px 0
+}
+
+footer .menu ul {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin:0 auto;
+}
+
+.menu li {
+  margin: 0 8px;
+}
+footer img {
+  height: 9px;
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
 /*********************************************
  *********************************************
  ********  Media Queries Breakpoints  ********
