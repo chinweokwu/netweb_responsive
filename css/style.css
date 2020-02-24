@@ -64,6 +64,9 @@
     background: green;
     margin-top: 10px;
   }
+  .articles {
+    padding: 0 20px;
+  }
 }
 
 @media screen and (min-width: 720px) and (max-width: 1115px) {

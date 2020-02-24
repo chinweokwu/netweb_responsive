@@ -208,7 +208,7 @@ section .wrapper {
 
 .articles {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
 }
 
@@ -219,6 +219,9 @@ section .wrapper {
   content: ">";
 }
 
+.articles h2{
+  margin-bottom: 10px;
+}
 .articles h2,h4,h5 {
   color: red;
 }
@@ -226,7 +229,9 @@ section .wrapper {
   display: grid;
   grid-template-columns: auto auto;
 }
-
+.articles ul li {
+  padding-left: 10px;
+}
 .articles ul li::before {
   content: "\2022";
   color: red;
