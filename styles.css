@@ -3,7 +3,34 @@
   margin: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  /* color: inherit; */
+}
+h4, h5 {
+  font-size: 14px;
+}
 
+ul, li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+body {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  width: 100%;
+}
 .mobile {
   display: none;
   position: absolute;
@@ -20,7 +47,7 @@ nav {
 .top-nav {
   display: flex;
   justify-content: space-between;
-  height: 30px;
+  height: 32px;
   background: black;
   align-items: center;
 }
@@ -47,7 +74,7 @@ nav ul li a {
 
 .bottom-nav {
   display:flex;
-  height: 45px;
+  height: 48px;
   background: #fafafa;
   width:100% ;
   font-size:12px;
@@ -69,10 +96,7 @@ nav ul li a {
   font-size: 1.1em;
   margin-right:5px;
   padding: 5px;
-  border: 1px solid lightgray;
-  border-top:0;  
-  border-bottom:0;
-  border-right: none;
+  border-left: 1px solid lightgray;
 }
 
 .right-nav  a{
@@ -112,8 +136,9 @@ nav ul li a {
   color: white;
 }
 .right-nav img{
-   width:50px; 
+   width:125px; 
    height: auto;
+   overflow: hidden;
 }
 .ads {
   display: grid;
