@@ -1,4 +1,4 @@
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   nav {
     display: none;
   }
@@ -69,7 +69,7 @@
   }
 }
 
-@media screen and (min-width: 720px) and (max-width: 1115px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .hidden, .hidde, .bars {
     display: none;
   }
