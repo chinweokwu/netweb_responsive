@@ -92,18 +92,19 @@ nav ul li a {
 }
 
 .right-nav {
-  align-items: center;
-  font-size: 1.1em;
   margin-right:5px;
   padding: 5px;
   border-left: 1px solid lightgray;
+  height: 48px;
 }
 
 .right-nav  a{
-  padding:15px;
+  /* padding:10px; */
   text-decoration: none;
 }
-
+.p{
+  width: 40px;
+}
 .right-nav button{
   width: 60px;
   padding: 2px;
@@ -135,10 +136,9 @@ nav ul li a {
 .tops ul a:hover {
   color: white;
 }
-.right-nav img{
-   width:125px; 
-   height: auto;
-   overflow: hidden;
+.right-nav img{ 
+   width: 80px;
+   
 }
 .ads {
   display: grid;
@@ -179,7 +179,7 @@ nav ul li a {
 }
 
 
-.section1{
+.section1, .section2{
   margin: 0 auto;
   width:80%;
   margin-top:50px;
@@ -193,4 +193,20 @@ nav ul li a {
 .green{
   height: 250px;
   background: green;
+}
+
+.add-info{
+  display:flex;
+  justify-content: space-between;
+}
+
+.wrapper2{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:20px;
+}
+
+.blue{
+  background: blue;
+  height: 150px;
 }
