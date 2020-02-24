@@ -242,7 +242,7 @@ div.gray {
 .articles section>div div:first-child {
   padding-top: 20px;
 }
-.articles section>div div:last-child {
+.mini-image {
   background-color: #ffdd33;
   width: 100px;
   height: 100px;
