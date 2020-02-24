@@ -64,7 +64,11 @@
     background: green;
     margin-top: 10px;
   }
+
   .articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-gap: 20px;
     padding: 0 20px;
   }
 }
@@ -102,5 +106,12 @@
   }
   .p, .o, .l, .q, .r {
     display: none
+  }
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 20px;
+    padding: 0 20px;
+    width: 100%;
   }
 }
