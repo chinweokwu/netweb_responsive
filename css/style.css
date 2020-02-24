@@ -1,68 +1,108 @@
-html {
-    box-sizing: border-box;
+@media (max-width: 720px) {
+  nav {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+  }
+  .logo img {
+    width: 100px;
+    height: 45px;
+  }
+  .bars {
+    display: flex;
+    width: 180px;
+    height: 45px;
+  }
+  .ads {
+    display: block;
+    background: #ffdd33;
+    grid-template-columns: 1fr;
+    height: 53px;
+    width: 100%;
+    margin-top: 46px;
+  }
+  .ads p {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+  .bars .uil {
+    font-size: 20px;
+    color:lightgray;
+    width:80px;
+    text-align: center;
+    padding-top:6px;
+  }
+  .bars .uil{
+    border:1px solid lightgrey;
+    border-top:0;
+    border-bottom:0;
+    border-right:0; 
+  }
+
+  .container{
+    display: flex;
+   flex-direction:column; 
+  }
+.blue, .yellow {
+  margin-top:10px; 
 }
-  
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
+
+  .section1{
+    width:100%;
+    margin-top:50px;
+  }
+  .wrapper {
+    display:flex;
+   flex-direction: column;
+
+  }
+  .green{
+    height: 150px;
+    background: green;
+    margin-top:10px;
   }
   
-body {
-  background-color: yellow;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
-  font-size: 14px;
-  width: 100%;
-  min-height: 100vh;
 }
 
-nav {
-  background: #fff;
+@media screen and (min-width: 720px) and (max-width: 1115px) {
+  .hidden, .hidde, .bars {
+    display: none;
+  }
+
+  .right-nav {
+    display: none;
+  }
+
+.mobile {
+  display:block;
 }
 
-.logo {
-  position: absolute;
+.logo img {
+  width: 100px;
+  height: 75px;
 }
-
-.first-nav {
-
+.left-nav  {
+  display: flex;
+  padding: 13px 0 13px 13px;
+  margin-left: 20px;
 }
-
-.first-nav-right {
-  float: right;
-  padding-right: 20px;
+.socials-nav  {
+  margin-left: 40px;
 }
-
-
-
-
-
-
-
-
-/*********************************************
- *********************************************
- ********  Media Queries Breakpoints  ********
- *********************************************
- ********************************************/
-
-
-@media all and (max-width: 768px) {
-  body{
-    background-color: blue;  
-  } 
+.right-nav{
+  display: block;
+  border: 1px solid lightgrey;
+  padding:15px;
+  margin-right:15px;
+  border-top: 0; 
+  border-right: 0; 
+  border-bottom:0;
 }
-
-@media all and (min-width: 769px) and (max-width: 1023px) {
-  body{
-        background-color: red;  
-      } 
+.p, .o, .l, .q, .r{
+  display: none
 }
-
-@media all and (min-width: 1024px) { 
-  body{
-        background-color: orange;  
-      } 
 }
