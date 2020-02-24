@@ -186,7 +186,7 @@ nav ul li a {
   width: 300px;
 }
 
-.section1, .section2, .section4, .articles {
+.section1, .section2, .section11, .articles {
   margin: 0 auto;
   width: 80%;
   margin-top: 50px;
@@ -210,14 +210,15 @@ section .wrapper {
   grid-gap: 20px;
 }
 
-.black2 {
+div.gray {
   height: 270px;
+  background-color: dimgray;
 }
 .articles h2::after {
   content: ">";
 }
 
-.articles h2{
+.articles h2 {
   margin-bottom: 10px;
 }
 .articles h2,h4,h5 {
@@ -248,7 +249,7 @@ section .wrapper {
   justify-self: end;
 }
 
-.black+div {
+.gray + div {
   display: grid;
   padding-left: 20px;  
 }
@@ -284,4 +285,67 @@ section .wrapper {
   background: brown;
   height:200px;
 }
+footer {
+  background-color: #131313;
+  text-align: center;
+  margin-top: 50px}
 
+footer .wrapper {
+  padding: 0 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+footer .links {
+  padding-top: 42px;
+  padding-bottom: 28px
+}
+
+footer .social ul {
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 21px;
+}
+
+footer .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #555;
+  margin: 0 8px;
+}
+
+footer a {
+  color: white;
+}
+
+footer .legal {
+  background-color: #000;
+  padding: 39px 0;
+  color: white;
+}
+.legal b {
+  color: red;
+}
+
+footer .menu ul {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.menu li {
+  margin: 0 8px;
+
+}
+
+footer img {
+  height: 9px;
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
