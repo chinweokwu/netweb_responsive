@@ -7,7 +7,16 @@
 a {
   text-decoration: none;
 }
-
+h1,
+h2 {
+  color: red;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+h1::after, h2::after {
+  content: " >";
+  font-stretch: condensed;
+}
 h4, h5 {
   font-size: 14px;
 }
@@ -210,13 +219,11 @@ nav ul li a {
   grid-gap: 20px;
 }
 
-div.gray {
+.gray {
   height: 270px;
   background-color: dimgray;
-}
-
-.articles h2::after {
-  content: ">";
+  display: grid;
+  align-content: end;
 }
 
 .articles h2 {
@@ -231,7 +238,9 @@ div.gray {
   display: grid;
   grid-template-columns: auto auto;
 }
-
+.articles section:first-child > .gray {
+  outline: 1px solid red;
+}
 .articles ul li {
   padding-left: 10px;
 }
