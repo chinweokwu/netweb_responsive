@@ -239,7 +239,7 @@ nav ul li a {
   grid-template-columns: auto auto;
 }
 .articles section:first-child > .gray {
-  outline: 1px solid red;
+  background-image: ;
 }
 .articles ul li {
   padding-left: 10px;
