@@ -192,7 +192,7 @@ nav ul li a {
   margin-top: 50px;
 }
 
-section .wrapper {
+ .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -285,6 +285,7 @@ div.gray {
   background: brown;
   height:200px;
 }
+
 footer {
   background-color: #131313;
   text-align: center;

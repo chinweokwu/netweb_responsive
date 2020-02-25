@@ -54,23 +54,33 @@
   .articles {
     width: 100%;
     margin-top: 50px;
-  }
-  section .wrapper {
+  } 
+   section .wrapper {
     display: flex;
     flex-direction: column;
   }
-  .green {
+  .green, .brown, .lightblue {
     height: 150px;
-    background: green;
     margin-top: 10px;
+    
   }
-
+  .section11{
+    width: 100%;
+  }
   .articles {
     display: grid;
     grid-template-columns: repeat(auto-fit, 1fr);
     grid-gap: 20px;
     padding: 0 20px;
   }
+
+  .wrapper4,  .wrapper2 {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+  }
+
+
 }
 
 @media screen and (min-width: 720px) and (max-width: 1115px) {
