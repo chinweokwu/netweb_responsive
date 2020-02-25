@@ -122,7 +122,7 @@
   .wrapper2, .wrapper4, .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
   }
   .lastlightblue {
     display: none;
