@@ -264,11 +264,11 @@ nav ul li a {
   height: 276px;
 }
 .articles section:nth-child(3) > .gray {
-  background: url(../images/articles-7.jfif) no-repeat transparent;
+  background: url(../images/articles-7.png) no-repeat transparent;
   height: 276px;
 }
 .articles section:nth-child(4) > .gray {
-  background: url(../images/articles-3.jfif) no-repeat transparent;
+  background: url(../images/articles-3.png) no-repeat transparent;
   height: 276px;
 }
 .articles section:nth-child(5) > .gray {
@@ -276,11 +276,11 @@ nav ul li a {
   height: 276px;
 }
 .articles section:nth-child(6) > .gray {
-  background: url(../images/articles-4.jfif) no-repeat transparent;
+  background: url(../images/articles-4.png) no-repeat transparent;
   height: 276px;
 }
 .articles section:nth-child(7) > .gray {
-  background: url(../images/articles-5.jfif) no-repeat transparent;
+  background: url(../images/articles-5.png) no-repeat transparent;
   height: 276px;
 }
 .articles section:nth-child(8) > .gray {
