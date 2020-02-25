@@ -349,17 +349,46 @@ h5 {
   padding-top: 20px;
 }
 
+
 .mini-image {
   background-color: #ffdd33;
-  width: 100px;
-  height: 100px;
+  width: 96px;  
+  height: 96px; 
   justify-self: end;
 }
 
-.articles>div+div>div:last-child {
-  background-color: red;
+.articles > section:first-child > div > div:last-child {
+  background: url(../images/mini-image-1.jfif) 50% no-repeat; 
+  background-size: cover;
 }
-
+.articles > section:nth-child(2) > div > div:last-child {
+  background: url(../images/mini-image-4.png) 50% no-repeat;  
+  background-size: cover;
+}
+.articles > section:nth-child(3) > div > div:last-child {
+  background: url(../images/mini-image-2.jfif) 50% no-repeat;   
+  background-size: cover;
+}
+.articles > section:nth-child(4) > div > div:last-child {
+  background: url(../images/mini-image-8.png) 50% no-repeat; 
+  background-size: cover;
+}
+.articles > section:nth-child(5) > div > div:last-child {
+  background: url(../images/mini-image-3.jfif) 50% no-repeat;  
+  background-size: cover;
+}
+.articles > section:nth-child(6) > div > div:last-child {
+  background: url(../images/mini-image-7.jfif) 50% no-repeat;    
+  background-size: cover;
+}
+.articles > section:nth-child(7) > div > div:last-child {
+  background: url(../images/mini-image-5.jfif) 50% no-repeat;   
+  background-size: cover;
+}
+.articles > section:nth-child(8) > div > div:last-child {
+  background: url(../images/mini-image-6.jfif) 50% no-repeat;   
+  background-size: cover;
+}
 .gray+div {
   display: grid;
   padding-left: 20px;
