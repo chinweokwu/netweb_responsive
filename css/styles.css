@@ -180,7 +180,8 @@ nav ul li a {
 }
 
 .container {
-  height: 40vh;
+  height: 560px;
+  position: relative;
   padding: 4px;
   display: grid;
   grid-gap: 10px;
@@ -203,6 +204,7 @@ nav ul li a {
   grid-area: black;
   z-index: -1;
   color: white;
+  max-height: 100%;
 }
 
 .black div {
@@ -216,8 +218,10 @@ nav ul li a {
 
 .black header {
   outline: 1px solid RED;
-  position: relative;
   bottom: 0;
+  padding: 24px 20px;
+  /* position: absolute;
+  width: 100%; */
 }
 
 .black h2 {
@@ -547,6 +551,7 @@ h5 {
 .section11 .wrapper4 .brown4 a div {
   background: url(../images/section11-4.jfif) no-repeat;
 }
+
 .section11 .wrapper4 .brown5 a div {
   background: url(../images/section11-5.jfif) no-repeat;
 }
