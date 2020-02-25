@@ -216,16 +216,24 @@ nav ul li a {
 .articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 36px;
+  width: 1176px;
 }
 
 .gray {
-  height: 270px;
+  /* height: 368px; */
   background-color: dimgray;
   display: grid;
   align-content: end;
 }
-
+.gray * {
+    color: #fff;
+}
+.gray li {
+  padding: 15px;
+  display: inline-block;
+  
+}
 .articles h2 {
   margin-bottom: 10px;
 }
@@ -239,13 +247,43 @@ nav ul li a {
   grid-template-columns: auto auto;
 }
 .articles section:first-child > .gray {
-  background-image: ;
+  background: url(../images/articles-1.png) no-repeat transparent;
+  height: 276px;
 }
+.articles section:nth-child(2) > .gray {
+  background: url(../images/articles-2.png) no-repeat transparent;
+  height: 276px;
+}
+.articles section:nth-child(3) > .gray {
+  background: url(../images/articles-7.jfif) no-repeat transparent;
+  height: 276px;
+}
+.articles section:nth-child(4) > .gray {
+  background: url(../images/articles-3.jfif) no-repeat transparent;
+  height: 276px;
+}
+.articles section:nth-child(5) > .gray {
+  background: url(../images/articles-8.png) no-repeat transparent;
+  height: 276px;
+}
+.articles section:nth-child(6) > .gray {
+  background: url(../images/articles-4.jfif) no-repeat transparent;
+  height: 276px;
+}
+.articles section:nth-child(7) > .gray {
+  background: url(../images/articles-5.jfif) no-repeat transparent;
+  height: 276px;
+}
+.articles section:nth-child(8) > .gray {
+  background: url(../images/articles-6.jfif) no-repeat transparent;
+  height: 276px;
+}
+
 .articles ul li {
   padding-left: 10px;
 }
 
-.articles ul li::before {
+.articles ul li.headline::before {
   content: "\2022";
   color: red;
   display: inline-block;
@@ -265,6 +303,9 @@ nav ul li a {
   justify-self: end;
 }
 
+.articles > div + div > div:last-child {
+  background-color: red;
+}
 .gray+div {
   display: grid;
   padding-left: 20px;
