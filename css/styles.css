@@ -192,7 +192,7 @@ nav ul li a {
   margin-top: 50px;
 }
 
- .wrapper {
+.wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -206,7 +206,7 @@ nav ul li a {
 
 .articles {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
 
@@ -214,6 +214,7 @@ div.gray {
   height: 270px;
   background-color: dimgray;
 }
+
 .articles h2::after {
   content: ">";
 }
@@ -221,16 +222,20 @@ div.gray {
 .articles h2 {
   margin-bottom: 10px;
 }
-.articles h2,h4,h5 {
+
+.articles h2, h4, h5 {
   color: red;
 }
+
 .articles section>div {
   display: grid;
   grid-template-columns: auto auto;
 }
+
 .articles ul li {
   padding-left: 10px;
 }
+
 .articles ul li::before {
   content: "\2022";
   color: red;
@@ -239,9 +244,11 @@ div.gray {
   width: 1em;
   margin-left: -1em;
 }
+
 .articles section>div div:first-child {
   padding-top: 20px;
 }
+
 .mini-image {
   background-color: #ffdd33;
   width: 100px;
@@ -249,9 +256,9 @@ div.gray {
   justify-self: end;
 }
 
-.gray + div {
+.gray+div {
   display: grid;
-  padding-left: 20px;  
+  padding-left: 20px;
 }
 
 .add-info {
@@ -261,7 +268,7 @@ div.gray {
 
 .wrapper2 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
 
@@ -270,26 +277,28 @@ div.gray {
   height: 150px;
 }
 
-.all-deals{
+.all-deals {
   display: flex;
   justify-content: space-between;
 }
-.wrapper4{
+
+.wrapper4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
 }
 
-.brown{
+.brown {
   background: brown;
-  height:200px;
+  height: 200px;
 }
 
 footer {
   background-color: #131313;
   text-align: center;
-  margin-top: 50px}
+  margin-top: 50px
+}
 
 footer .wrapper {
   padding: 0 20px;
@@ -327,6 +336,7 @@ footer .legal {
   padding: 39px 0;
   color: white;
 }
+
 .legal b {
   color: red;
 }
@@ -340,7 +350,6 @@ footer .menu ul {
 
 .menu li {
   margin: 0 8px;
-
 }
 
 footer img {

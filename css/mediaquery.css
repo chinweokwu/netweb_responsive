@@ -1,6 +1,9 @@
-@media (max-width: 720px) {
+@media (max-width: 750px) {
   nav {
     display: none;
+  }
+  body {
+    overflow-x: hidden
   }
   .mobile {
     display: flex;
@@ -49,47 +52,39 @@
   .blue, .yellow {
     margin-top: 10px;
   }
-  .section1,
-  .section2,
-  .articles {
+  .section1, .section2, .articles {
     width: 100%;
     margin-top: 50px;
-  } 
-   section .wrapper {
+  }
+  section .wrapper {
     display: flex;
     flex-direction: column;
   }
   .green, .brown, .lightblue {
     height: 150px;
     margin-top: 10px;
-    
   }
-  .section11{
+  .section11 {
     width: 100%;
   }
   .articles {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 20px;
     padding: 0 20px;
   }
-
-  .wrapper4,  .wrapper2 {
+  .wrapper4, .wrapper2 {
     display: flex;
     flex-direction: column;
-    width:100%;
+    width: 100%;
   }
-
-
 }
 
-@media screen and (min-width: 720px) and (max-width: 1115px) {
-  .hidden, .hidde, .bars {
+@media screen and (min-width: 750px) and (max-width: 1115px) {
+  .hidden, .hidde, .bars, .right-nav, .advert, .job {
     display: none;
   }
-  .right-nav {
-    display: none;
-  }
+
   .mobile {
     display: block;
   }
@@ -123,5 +118,24 @@
     grid-gap: 20px;
     padding: 0 20px;
     width: 100%;
+  }
+  .wrapper2, .wrapper4, .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .lastlightblue {
+    display: none;
+  }
+  .section11, .section2, .section1{
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1115px) and (max-width: 1230px) {
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
   }
 }
