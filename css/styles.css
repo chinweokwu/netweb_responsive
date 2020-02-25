@@ -196,7 +196,7 @@ nav ul li a {
   content: "";
 }
 .black {
-  background: url(../images/3061093760_b92f06b7ba_o-796x531.jfif) 50% 50% no-repeat;
+  background: url(../images/black-image-gradient.png) 50% 50% no-repeat;
   background-size: cover;
   grid-area: black;
   z-index: -1;
@@ -223,12 +223,12 @@ height: 50%;
 }
 
 .blue {
-  background: url(../images/WhatsApp-hed-796x419.jfif) 0 50% no-repeat;
+  background: url(../images/blue-image.png) 0 50% no-repeat;
   grid-area: blue;
 }
 
 .yellow {
-  background: url(../images/2-1-796x417.png) 0 50% no-repeat;
+  background: url(../images/yellow-image.png) 0 50% no-repeat;
   grid-area: yellow;
 }
 
