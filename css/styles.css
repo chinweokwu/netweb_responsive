@@ -171,37 +171,39 @@ nav ul li a {
 }
 
 .container {
+  height: 60vh;
+  padding: 4px;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 250px;
+  grid-template-areas: 
+    "black black blue"
+    "black black yellow";  
 }
 
 .black{
- 
-  height: 100%;
-  object-fit: cover;
-  position:absolute;
-  left:150px;
+ background: url(../images/3061093760_b92f06b7ba_o-796x531.jfif) 50% 50% no-repeat;
+ background-size: cover;
+ grid-area: black;
   z-index:-1;
-}
-.black {
-  grid-area: 1/1/3/3;
   color: white;
   position:relative;
 }
+.black div {
+  background: url();
+}
+
+.black h2 {
+  font-size: 50px;
+}
 
 .blue {
-  background-image: url("./images/articles-4.jpg");
-  background: blue;
+  background: url(../images/WhatsApp-hed-796x419.jfif) 0 50% no-repeat;
+  grid-area: blue;
 }
 
 .yellow {
-  background: yellow;
-}
-
-.black img {
-  width: 300px;
+  background: url(../images/2-1-796x417.png) 0 50% no-repeat;
+  grid-area: yellow;
 }
 
 .section1, .section2, .section11, .articles {
