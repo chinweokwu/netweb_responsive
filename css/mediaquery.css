@@ -78,6 +78,9 @@
     flex-direction: column;
     width: 100%;
   }
+  .black div {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 1115px) {

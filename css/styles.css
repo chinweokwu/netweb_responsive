@@ -189,7 +189,6 @@ nav ul li a {
     "black black blue"
     "black black yellow";
 }
-
 .container h2 {
   color: #fff;
 }
@@ -202,49 +201,54 @@ nav ul li a {
   background: url(../images/black-image-gradient.png) 50% 50% no-repeat;
   background-size: cover;
   grid-area: black;
-  z-index: -1;
-  color: white;
-  max-height: 100%;
 }
 
-.black div {
-  background: url(../images/tnw.svg) no-repeat;
+.black .logo-article {
+  background: url(../images/tnw.svg) 0 0 no-repeat;
   background-size: contain;
-  max-width: 50%;
-  max-height: 40%;
+  width: 50%;
   height: 50%;
-  outline: 1px solid black;
+  display: inline-block;
 }
-
+.black span {
+  float: right;
+}
 .black header {
-  outline: 1px solid RED;
-  bottom: 0;
-  padding: 24px 20px;
-  /* position: absolute;
-  width: 100%; */
+  align-self: end;
 }
 
 .black h2 {
-  font-size: 45px;
+  font-size: 55px;
   color: #fff;
 }
 
 .blue {
-  background: url(../images/blue-image.png) 0 50% no-repeat;
+  background: url(../images/blue-image.png) 50% 50% no-repeat;
   grid-area: blue;
-}
 
+}
+.blue div,
+.yellow div {
+  align-self: end;
+}
 .yellow {
-  background: url(../images/yellow-image.png) 0 50% no-repeat;
+  background: url(../images/yellow-image.png) 50% 50% no-repeat;
   grid-area: yellow;
 }
 
+.black,
+.yellow,
+.blue {
+  line-height: 1;
+  color: white;
+  padding: 24px;
+  display: grid;
+}
 .section1,
 .section2,
 .section11,
 .articles {
   margin: 0 auto;
-  width: 85%;
   margin-top: 50px;
   width: 1176px;
 }
@@ -256,8 +260,16 @@ nav ul li a {
   grid-gap: 20px;
 }
 
-.section1 .wrapper div * {
-  color: black;
+.wrapper .author li {
+  display: inline-block;
+  font-size: 13px;
+  color: #aaa;
+  font-weight: 100;
+}
+
+.wrapper .title a{
+color: black;
+font-size: 16px;
 }
 
 .section1 .wrapper div {
