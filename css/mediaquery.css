@@ -115,6 +115,9 @@
     display: flex;
     margin-bottom: -80px;
   }
+  .greens h4, .author {
+    margin-left: 10px;
+  }
 }
 
 @media screen and (min-width: 796px) and (max-width: 1115px) {
@@ -172,11 +175,7 @@
     display: none;
   }
 
-  .section11,
-  .section2,
-  .section1 {
-    /* width: 80%; */ 
-  }
+
   .black-text{
     margin-top: 175px;
   
@@ -184,9 +183,7 @@
   .section1{
     margin-top:100px;
   }
-  /* .black-text h2{
-    font-size: 25px;
-  } */
+ 
 }
 
 @media screen and (min-width: 1024px) {
