@@ -38,7 +38,6 @@ img {
 button {
   border: none;
   padding: 0;
-  background: none;
 }
 
 body {
@@ -180,13 +179,13 @@ nav ul li a {
 }
 
 .container {
-  height: 40vh;
-  padding: 4px;
+  padding: 5px;
   display: grid;
   grid-gap: 10px;
   grid-template-areas:
     "black black blue"
     "black black yellow";
+    height: 400px;
 }
 
 .container h2 {
@@ -204,30 +203,37 @@ nav ul li a {
   z-index: -1;
   color: white;
 }
-
-.black div {
-  background: url(../images/tnw.svg) no-repeat;
-  background-size: contain;
-  max-width: 50%;
-  max-height: 40%;
-  height: 50%;
-  outline: 1px solid black;
+.black-text{
+  margin-top: 55px;
 }
-
-.black header {
-  outline: 1px solid RED;
-  position: relative;
-  bottom: 0;
+.svg-tnw {
+  background: url(../images/tnw.svg) no-repeat;
+  background-size: cover;
+  max-width: 350px;
+  min-width: 250px;
+  height: 130px;
+  margin:10px;
 }
 
 .black h2 {
-  font-size: 45px;
+  font-size: 35px;
   color: #fff;
+  padding: 10px;
 }
-
+ .insight{
+  padding-left: 0px;
+  
+}
+.intro-text{
+  margin-top:-2px;
+}
 .blue {
   background: url(../images/blue-image.png) 0 50% no-repeat;
   grid-area: blue;
+}
+
+.blue p, .yellow p {
+  color: white;
 }
 
 .yellow {
@@ -240,9 +246,8 @@ nav ul li a {
 .section11,
 .articles {
   margin: 0 auto;
-  width: 85%;
+  width: 75%;
   margin-top: 50px;
-  width: 1176px;
 }
 
 .wrapper {

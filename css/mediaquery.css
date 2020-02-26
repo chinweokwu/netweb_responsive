@@ -55,6 +55,7 @@
   .section1, .section2, .articles {
     width: 100%;
     margin-top: 50px;
+    padding:10px;
   }
   section .wrapper {
     display: flex;
@@ -78,10 +79,22 @@
     flex-direction: column;
     width: 100%;
   }
+  .svg-tnw, .insightp, .black-date{
+    display: none;
+  }
+  .black h2, .blue h2, .yellow h2 {
+    font-size: 28px;
+  }
+/* .img-section{
+  width: 90px;
+  height: 50px;
+  background-size: contain;
+} */
+
 }
 
 @media screen and (min-width: 750px) and (max-width: 1115px) {
-  .hidden, .hidde, .bars, .right-nav, .advert, .job {
+  .hidden, .hidde, .bars, .right-nav, .advert, .job, .svg-tnw, .black-date {
     display: none;
   }
 
@@ -128,7 +141,10 @@
     display: none;
   }
   .section11, .section2, .section1{
-    width: 95%;
+    width: 85%;
+  }
+  .black-text{
+    margin-top: 175px;
   }
 }
 
@@ -137,5 +153,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 20px;
+  }
+  .black-text{
+    margin-bottom: 30px;
   }
 }
