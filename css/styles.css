@@ -8,26 +8,22 @@ a {
   text-decoration: none;
 }
 
-h1,
-h2 {
+h1, h2 {
   color: red;
   font-size: 28px;
   margin-bottom: 10px;
 }
 
-h1::after,
-h2::after {
+h1::after, h2::after {
   content: " >";
   font-stretch: condensed;
 }
 
-h4,
-h5 {
+h4, h5 {
   font-size: 14px;
 }
 
-ul,
-li {
+ul, li {
   list-style-type: none;
 }
 
@@ -77,14 +73,12 @@ nav ul li a {
   text-decoration: none;
 }
 
-.socials-nav ul,
-.business-nav ul {
+.socials-nav ul, .business-nav ul {
   display: flex;
   padding: 10px;
 }
 
-.socials-nav ul a,
-.business-nav ul a {
+.socials-nav ul a, .business-nav ul a {
   padding: 10px;
   color: #959595;
   text-decoration: none;
@@ -146,8 +140,7 @@ nav ul li a {
   font-size: 18px;
 }
 
-.right-nav a,
-.left-nav a {
+.right-nav a, .left-nav a {
   color: #959595;
 }
 
@@ -185,10 +178,9 @@ nav ul li a {
   padding: 4px;
   display: grid;
   grid-gap: 10px;
-  grid-template-areas:
-    "black black blue"
-    "black black yellow";
+  grid-template-areas: "black black blue" "black black yellow";
 }
+
 .container h2 {
   color: #fff;
 }
@@ -210,9 +202,11 @@ nav ul li a {
   height: 50%;
   display: inline-block;
 }
+
 .black span {
   float: right;
 }
+
 .black header {
   align-self: end;
 }
@@ -225,29 +219,25 @@ nav ul li a {
 .blue {
   background: url(../images/blue-image.png) 50% 50% no-repeat;
   grid-area: blue;
-
 }
-.blue div,
-.yellow div {
+
+.blue div, .yellow div {
   align-self: end;
 }
+
 .yellow {
   background: url(../images/yellow-image.png) 50% 50% no-repeat;
   grid-area: yellow;
 }
 
-.black,
-.yellow,
-.blue {
+.black, .yellow, .blue {
   line-height: 1;
   color: white;
   padding: 24px;
   display: grid;
 }
-.section1,
-.section2,
-.section11,
-.articles {
+
+.section1, .section2, .section11, .articles {
   margin: 0 auto;
   margin-top: 50px;
   width: 1176px;
@@ -267,9 +257,9 @@ nav ul li a {
   font-weight: 100;
 }
 
-.wrapper .title a{
-color: black;
-font-size: 16px;
+.wrapper .title a {
+  color: black;
+  font-size: 16px;
 }
 
 .section1 .wrapper div {
@@ -349,13 +339,11 @@ font-size: 16px;
   align-items: center;
 }
 
-.card,
-.card+ul {
+.card, .card+ul {
   height: 82px;
 }
 
-.investor,
-.details {
+.investor, .details {
   padding: 10px 16px 10px 84px;
 }
 
@@ -396,17 +384,23 @@ font-size: 16px;
 .gray li {
   padding: 15px;
   display: inline-block;
-
 }
 
 .articles h2 {
   margin-bottom: 10px;
 }
 
-.articles h2,
-h4,
-h5 {
+.articles h2, h4, h5 {
   color: red;
+}
+
+li.headline {
+  border-bottom: 1px solid #eee;
+}
+
+.headline h4 a {
+  color: #666;
+  font-size: 13px;
 }
 
 .articles section>div {
@@ -416,7 +410,6 @@ h5 {
 
 .articles section:first-child>.gray {
   background: url(../images/articles-1.png) no-repeat transparent;
-
 }
 
 .articles section:nth-child(2)>.gray {
@@ -521,6 +514,7 @@ h5 {
 .gray+div {
   display: grid;
   padding-left: 20px;
+  margin-top: 2px;
 }
 
 .add-info {
