@@ -1,4 +1,4 @@
-@media (max-width: 750px) {
+@media (max-width: 720px) {
   nav {
     display: none;
   }
@@ -57,6 +57,10 @@
     margin-top: 50px;
     padding:10px;
   }
+
+  .section1{
+    margin-top: 50px;
+  }
   section .wrapper {
     display: flex;
     flex-direction: column;
@@ -83,17 +87,18 @@
     display: none;
   }
   .black h2, .blue h2, .yellow h2 {
-    font-size: 28px;
+    font-size: 20px;
   }
-/* .img-section{
-  width: 90px;
-  height: 50px;
-  background-size: contain;
-} */
 
+  .black-text{
+    margin-top:-15px;
+  }
+  .img-section {
+    width: 180px;
+  }
 }
 
-@media screen and (min-width: 750px) and (max-width: 1115px) {
+@media screen and (min-width: 720px) and (max-width: 1115px) {
   .hidden, .hidde, .bars, .right-nav, .advert, .job, .svg-tnw, .black-date {
     display: none;
   }
@@ -141,10 +146,13 @@
     display: none;
   }
   .section11, .section2, .section1{
-    width: 85%;
+    width: 80%;
   }
   .black-text{
     margin-top: 175px;
+  }
+  .section1{
+    margin-top:100px;
   }
 }
 
