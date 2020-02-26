@@ -178,7 +178,7 @@ nav ul li a {
   grid-template-areas:
     "black black blue"
     "black black yellow";
-    /* height: 400px; */
+    height: 400px;
 }
 
 .container h2 {
@@ -241,9 +241,8 @@ nav ul li a {
 
 .section1, .section2, .section11, .articles {
   margin: 0 auto;
-  max-width: 1192px;
+  width: 75%;
   margin-top: 50px;
-  padding: 0 20px;
 }
 
 .wrapper {
@@ -271,47 +270,38 @@ nav ul li a {
 
 .section1 .wrapper * a div {
   height: 135px;
-  margin-bottom: 10px;
 }
 
 .section1 .wrapper .green1 a div {
   background: url(../images/section1-1.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section1 .wrapper .green2 a div {
   background: url(../images/section1-2.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section1 .wrapper .green3 a div {
   background: url(../images/section1-3.png) no-repeat;
-  background-size: cover;
 }
 
 .section1 .wrapper .green4 a div {
   background: url(../images/section1-4.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section1 .wrapper .green5 a div {
   background: url(../images/section1-5.png) no-repeat;
-  background-size: cover;
 }
 
 .section1 .wrapper .green6 a div {
   background: url(../images/section1-6.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section1 .wrapper .green7 a div {
   background: url(../images/section1-7.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section1 .wrapper .green8 a div {
   background: url(../images/section1-8.png) no-repeat;
-  background-size: cover;
 }
 
 .wrapper2 {
@@ -552,47 +542,38 @@ li.headline {
 
 .section11 .wrapper4 * a div {
   height: 200px;
-  margin-bottom: 10px;
 }
 
 .section11 .wrapper4 .brown1 a div {
   background: url(../images/section11-1.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section11 .wrapper4 .brown2 a div {
   background: url(../images/section11-2.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section11 .wrapper4 .brown3 a div {
   background: url(../images/section11-3.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section11 .wrapper4 .brown4 a div {
   background: url(../images/section11-4.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section11 .wrapper4 .brown5 a div {
   background: url(../images/section11-5.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section11 .wrapper4 .brown6 a div {
   background: url(../images/section11-6.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section11 .wrapper4 .brown7 a div {
   background: url(../images/section11-7.jfif) no-repeat;
-  background-size: cover;
 }
 
 .section11 .wrapper4 .brown8 a div {
   background: url(../images/section11-8.jfif) no-repeat;
-  background-size: cover;
 }
 
 footer {

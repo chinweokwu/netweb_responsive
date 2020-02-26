@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 796px) {
   nav {
     display: none;
   }
@@ -96,9 +96,13 @@
   .img-section {
     width: 180px;
   }
+  .greens{
+    display: flex;
+    margin-bottom: -80px;
+  }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 796px) and (max-width: 1115px) {
   .hidden, .hidde, .bars, .right-nav, .advert, .job, .svg-tnw, .black-date {
     display: none;
   }
@@ -146,14 +150,18 @@
     display: none;
   }
   .section11, .section2, .section1{
-    /* width: 80%; */
+    width: 80%;
   }
   .black-text{
     margin-top: 175px;
+  
   }
   .section1{
     margin-top:100px;
   }
+  /* .black-text h2{
+    font-size: 25px;
+  } */
 }
 
 @media screen and (min-width: 1115px) and (max-width: 1230px) {
