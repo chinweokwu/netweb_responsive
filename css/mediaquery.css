@@ -69,14 +69,29 @@
     height: 150px;
     margin-top: 10px;
   }
+  .add-info { /****/
+    display: block;
+  }
+  .section2 .add-info li { /****/
+    display: block;
+    padding: 5px;
+  }
+  .section2 .add-info li:nth-child(even) { /****/
+    display: none;
+  }
   .section11 {
     width: 100%;
   }
+
   .articles {
-    display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 20px;
-    padding: 0 20px;
+    /****/
+  }
+
+  .articles section .gray {
+    background-size: cover;
+    /****/
+    height: 500px;
   }
   .wrapper4, .wrapper2 {
     display: flex;
@@ -135,22 +150,32 @@
     display: none
   }
   .articles {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 20px;
-    padding: 0 20px;
-    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    /****/
   }
-  .wrapper2, .wrapper4, .wrapper {
+
+  .wrapper2,
+  .wrapper4,
+  .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+  }
+
+  .add-info {  /****/
+    display: block;
+    margin-bottom: 15px;
+  }
+  .section2 .add-info li { /****/
+    padding: 0;
   }
   .lastlightblue {
     display: none;
   }
-  .section11, .section2, .section1{
-    width: 80%;
+
+  .section11,
+  .section2,
+  .section1 {
+    /* width: 80%; */ 
   }
   .black-text{
     margin-top: 175px;
@@ -164,13 +189,15 @@
   } */
 }
 
-@media screen and (min-width: 1115px) and (max-width: 1230px) {
-  .articles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 20px;
-  }
-  .black-text{
+@media screen and (min-width: 1024px) {
+
+  /****/
+  .black-text {
     margin-bottom: 30px;
+  }
+
+  .latest {
+    background-color: rgba(255, 68, 34, .06);
+    /****/
   }
 }

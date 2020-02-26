@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  color: inherit; 
 }
 
 h1, h2 {
@@ -274,34 +275,42 @@ nav ul li a {
 
 .section1 .wrapper .green1 a div {
   background: url(../images/section1-1.jfif) no-repeat;
+  background-size: cover;
 }
 
 .section1 .wrapper .green2 a div {
   background: url(../images/section1-2.jfif) no-repeat;
+  background-size: cover;
 }
 
 .section1 .wrapper .green3 a div {
   background: url(../images/section1-3.png) no-repeat;
+  background-size: cover;
 }
 
 .section1 .wrapper .green4 a div {
   background: url(../images/section1-4.jfif) no-repeat;
+  background-size: cover;
 }
 
 .section1 .wrapper .green5 a div {
   background: url(../images/section1-5.png) no-repeat;
+  background-size: cover;
 }
 
 .section1 .wrapper .green6 a div {
   background: url(../images/section1-6.jfif) no-repeat;
+  background-size: cover;
 }
 
 .section1 .wrapper .green7 a div {
   background: url(../images/section1-7.jfif) no-repeat;
+  background-size: cover;
 }
 
 .section1 .wrapper .green8 a div {
   background: url(../images/section1-8.png) no-repeat;
+  background-size: cover;
 }
 
 .wrapper2 {
@@ -314,6 +323,17 @@ nav ul li a {
   background-color: #fffaf8;
   /* height: 150px; */
   position: relative;
+}
+
+.add-info {   /*****/
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2 .add-info li { /****/
+  display: inline-block;
+  padding: 5px;
+  color: red;
 }
 
 .section2 .wrapper2 div * {
@@ -336,13 +356,21 @@ nav ul li a {
   left: 10px;
 }
 
-.card {
+.card {   
   display: grid;
   align-items: center;
+  padding: 10px;
+}
+.card + ul .source {/****/
+  color: #aaa;
 }
 
-.card, .card+ul {
+.card, .card+ul {/****/
   height: 82px;
+  padding: 10px;
+}
+.source {/****/
+  margin-top: 5px;
 }
 
 .investor, .details {
@@ -373,9 +401,9 @@ nav ul li a {
 }
 
 .gray {
-  background-color: dimgray;
   display: grid;
   align-content: end;
+  background-size: cover;
   height: 276px;
 }
 
@@ -412,41 +440,42 @@ li.headline {
 
 .articles section:first-child>.gray {
   background: url(../images/articles-1.png) no-repeat transparent;
+  background-size: cover;
 }
 
 .articles section:nth-child(2)>.gray {
   background: url(../images/articles-2.png) no-repeat transparent;
-  height: 276px;
+  background-size: cover;
 }
 
 .articles section:nth-child(3)>.gray {
   background: url(../images/articles-7.png) no-repeat transparent;
-  height: 276px;
+  background-size: cover;
 }
 
 .articles section:nth-child(4)>.gray {
   background: url(../images/articles-3.png) no-repeat transparent;
-  height: 276px;
+  background-size: cover;
 }
 
 .articles section:nth-child(5)>.gray {
   background: url(../images/articles-8.png) no-repeat transparent;
-  height: 276px;
+  background-size: cover;
 }
 
 .articles section:nth-child(6)>.gray {
   background: url(../images/articles-4.png) no-repeat transparent;
-  height: 276px;
+  background-size: cover;
 }
 
 .articles section:nth-child(7)>.gray {
   background: url(../images/articles-5.png) no-repeat transparent;
-  height: 276px;
+  background-size: cover;
 }
 
 .articles section:nth-child(8)>.gray {
   background: url(../images/articles-6.jfif) no-repeat transparent;
-  height: 276px;
+  background-size: cover;
 }
 
 .articles ul li {
