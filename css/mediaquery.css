@@ -1,4 +1,4 @@
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   nav {
     display: none;
   }
@@ -98,7 +98,7 @@
   }
 }
 
-@media screen and (min-width: 720px) and (max-width: 1115px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .hidden, .hidde, .bars, .right-nav, .advert, .job, .svg-tnw, .black-date {
     display: none;
   }
@@ -146,7 +146,7 @@
     display: none;
   }
   .section11, .section2, .section1{
-    width: 80%;
+    /* width: 80%; */
   }
   .black-text{
     margin-top: 175px;
