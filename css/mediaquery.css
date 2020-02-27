@@ -118,6 +118,11 @@
   .greens h4, .author {
     margin-left: 10px;
   }
+  .mini-image {
+    display: none;
+  }
+
+
 }
 
 @media screen and (min-width: 796px) and (max-width: 1115px) {
@@ -183,10 +188,29 @@
   .section1{
     margin-top:100px;
   }
+  .wrapper, .wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .section1, .section2, .articles {
+    width: 90%;
+    /* margin-top: 50px;
+    padding:10px; */
+  }
+  
+.blue h2, .yellow h2 {
+  font-size: 20px;
+}
+
+.black h2 {
+  font-size: 25px;
+}
+
  
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1115px) {
 
   /****/
   .black-text {
@@ -196,5 +220,8 @@
   .latest {
     background-color: rgba(255, 68, 34, .06);
     /****/
+  }
+  .blue h2, .yellow h2 {
+    font-size: 20px;
   }
 }

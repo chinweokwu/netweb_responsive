@@ -6,7 +6,7 @@
 
 a {
   text-decoration: none;
-  color: inherit; 
+  color: inherit;
 }
 
 h1, h2 {
@@ -176,10 +176,8 @@ nav ul li a {
   padding: 5px;
   display: grid;
   grid-gap: 10px;
-  grid-template-areas:
-    "black black blue"
-    "black black yellow";
-    height: 400px;
+  grid-template-areas: "black black blue" "black black yellow";
+  height: 400px;
 }
 
 .container h2 {
@@ -195,16 +193,18 @@ nav ul li a {
   background-size: cover;
   grid-area: black;
 }
-.black-text{
+
+.black-text {
   margin-top: 55px;
 }
+
 .svg-tnw {
   background: url(../images/tnw.svg) no-repeat;
   background-size: cover;
   max-width: 350px;
   min-width: 250px;
   height: 130px;
-  margin:10px;
+  margin: 10px;
 }
 
 .black h2 {
@@ -212,13 +212,15 @@ nav ul li a {
   color: #fff;
   padding: 10px;
 }
- .insight{
+
+.insight {
   padding-left: 0px;
-  
 }
-.intro-text{
-  margin-top:-2px;
+
+.intro-text {
+  margin-top: -2px;
 }
+
 .blue {
   background: url(../images/blue-image.png) 50% 50% no-repeat;
   grid-area: blue;
@@ -240,10 +242,16 @@ nav ul li a {
   display: grid;
 }
 
-.section1, .section2, .section11, .articles {
+.section2, .section11, .articles {
   margin: 0 auto;
   width: 75%;
-  margin-top: 50px;
+  margin-top: 60px;
+}
+
+.section1 {
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 100px;
 }
 
 .wrapper {
@@ -325,12 +333,14 @@ nav ul li a {
   position: relative;
 }
 
-.add-info {   /*****/
+.add-info {
+  /*****/
   display: flex;
   justify-content: space-between;
 }
 
-.section2 .add-info li { /****/
+.section2 .add-info li {
+  /****/
   display: inline-block;
   padding: 5px;
   color: red;
@@ -356,20 +366,25 @@ nav ul li a {
   left: 10px;
 }
 
-.card {   
+.card {
   display: grid;
   align-items: center;
   padding: 10px;
 }
-.card + ul .source {/****/
+
+.card+ul .source {
+  /****/
   color: #aaa;
 }
 
-.card, .card+ul {/****/
+.card, .card+ul {
+  /****/
   height: 82px;
   padding: 10px;
 }
-.source {/****/
+
+.source {
+  /****/
   margin-top: 5px;
 }
 
