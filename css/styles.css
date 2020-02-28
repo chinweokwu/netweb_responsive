@@ -625,14 +625,15 @@ li.headline {
   background-size: cover;
 }
 
+.all-deals,
 .add-info {
   display: flex;
   justify-content: space-between;
 }
 
-.all-deals {
-  display: flex;
-  justify-content: space-between;
+.all-deals p {
+  color: red;
+  padding-top: 10px;
 }
 
 .wrapper4 {

@@ -147,10 +147,6 @@
   .author {
     margin-left: 10px;
   }
-
-  .mini-image {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 796px) and (max-width: 1115px) {
