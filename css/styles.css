@@ -115,6 +115,11 @@ nav ul li {
   padding: 5px;
 }
 
+.headline h4 a {
+  color: #666;
+  font-size: 13px;
+}
+
 .wrapper .title a {
   color: black;
   font-size: 16px;
@@ -289,6 +294,10 @@ footer img {
   color: #fff;
 }
 
+.articles ul li {
+  padding-left: 10px;
+}
+
 .wrapper .author li {
   display: inline-block;
   font-size: 13px;
@@ -306,6 +315,11 @@ footer img {
   color: black;
 }
 
+.articles section > div {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 .section1 .wrapper div {
   height: 227px;
 }
@@ -316,6 +330,10 @@ footer img {
 
 .section1 .wrapper * a div {
   height: 135px;
+}
+
+.articles section > div div:first-child {
+  padding-top: 20px;
 }
 
 .section11 .wrapper4 .brown1 a div {
@@ -511,16 +529,6 @@ li.headline {
   border-bottom: 1px solid #eee;
 }
 
-.headline h4 a {
-  color: #666;
-  font-size: 13px;
-}
-
-.articles section > div {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
 .articles section:first-child > .gray {
   background: url(../images/articles-1.png) no-repeat transparent;
   background-size: cover;
@@ -561,10 +569,6 @@ li.headline {
   background-size: cover;
 }
 
-.articles ul li {
-  padding-left: 10px;
-}
-
 .articles ul li.headline::before {
   content: "\2022";
   color: red;
@@ -572,10 +576,6 @@ li.headline {
   font-weight: bold;
   width: 1em;
   margin-left: -1em;
-}
-
-.articles section > div div:first-child {
-  padding-top: 20px;
 }
 
 .mini-image {
