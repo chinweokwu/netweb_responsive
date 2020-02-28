@@ -677,3 +677,7 @@ footer .legal {
 .legal b {
   color: red;
 }
+
+.price {
+  color: lightgrey;
+}
