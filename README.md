@@ -2,7 +2,7 @@
 
 > For this project, we will use html and css principles to make a site like TNW homepage, to train ourselves in terms of  visual hierarchy, typography, design principles and responsive design. 
 
-![screenshot](./images/tnw_image.png) 
+![screenshot](images/tnw_image.png) 
 
 ## Built With
 
