@@ -116,8 +116,9 @@ nav ul li {
 }
 
 .headline h4 a {
-  color: #666;
+  color: #a3a3a3;
   font-size: 13px;
+  padding-top: 20px;
 }
 
 .wrapper .title a {
@@ -379,7 +380,7 @@ footer img {
 }
 
 .section1 .wrapper .green3 a div {
-  background: url(../images/section1-3.png) no-repeat;
+  background: url(../images/section1-3.jfif) no-repeat;
   background-size: cover;
 }
 
@@ -389,7 +390,7 @@ footer img {
 }
 
 .section1 .wrapper .green5 a div {
-  background: url(../images/section1-5.png) no-repeat;
+  background: url(../images/section1-5.jfif) no-repeat;
   background-size: cover;
 }
 
@@ -404,7 +405,7 @@ footer img {
 }
 
 .section1 .wrapper .green8 a div {
-  background: url(../images/section1-8.png) no-repeat;
+  background: url(../images/section1-8.jfif) no-repeat;
   background-size: cover;
 }
 
@@ -435,6 +436,14 @@ h5 {
   color: red;
 }
 
+.headline h4 {
+  margin-bottom: 10px;
+}
+
+.greens h4 {
+  margin-top: 10px;
+}
+
 .section2 .wrapper2 h4 {
   color: white;
 }
@@ -443,6 +452,10 @@ h5 {
 .card + ul {
   height: 82px;
   padding: 10px;
+}
+
+.greens ul {
+  margin-top: 5px;
 }
 
 footer .menu ul {
@@ -525,8 +538,9 @@ footer .social ul {
   margin-bottom: 10px;
 }
 
-li.headline {
+.headline {
   border-bottom: 1px solid #eee;
+  margin-top: 10px;
 }
 
 .articles section:first-child > .gray {
@@ -576,6 +590,7 @@ li.headline {
   font-weight: bold;
   width: 1em;
   margin-left: -1em;
+  position: absolute;
 }
 
 .mini-image {
@@ -680,6 +695,7 @@ footer .legal {
 
 .price {
   color: lightgrey;
+  margin-top: 5px;
 }
 
 .soci-icons,
