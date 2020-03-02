@@ -126,6 +126,10 @@ nav ul li {
   font-size: 16px;
 }
 
+.headline h4 a:hover {
+  color: #585858;
+}
+
 .right-nav {
   margin-right: 5px;
   padding: 5px;
