@@ -1,0 +1,359 @@
+@media (max-width: 796px) {
+  nav {
+    display: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+  }
+
+  .logo img {
+    width: 100px;
+    height: 45px;
+  }
+
+  .bars {
+    display: flex;
+    width: 180px;
+    height: 45px;
+  }
+
+  .ads {
+    display: grid;
+    background: #fd3;
+    grid-template-columns: 1fr;
+    height: 53px;
+    width: 100%;
+    margin-top: 46px;
+  }
+
+  .ads p {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+
+  .bars .uil {
+    font-size: 20px;
+    color: lightgray;
+    width: 80px;
+    text-align: center;
+    padding-top: 6px;
+    border-left: 1px solid lightgray;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    vertical-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blue,
+  .yellow {
+    margin-top: 10px;
+  }
+
+  .section1,
+  .section2,
+  .articles {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+  .section1 {
+    margin-top: 50px;
+  }
+
+  section .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .green,
+  .brown,
+  .lightblue {
+    height: 150px;
+    margin-top: 10px;
+  }
+
+  .add-info {
+    display: block;
+  }
+
+  .section2 .add-info li {
+    display: block;
+    padding: 5px;
+  }
+
+  .section2 .add-info li:nth-child(even) {
+    display: none;
+  }
+
+  .section11 {
+    width: 100%;
+  }
+
+  .articles {
+    grid-template-columns: 1fr;
+  }
+
+  .articles section .gray {
+    background-size: cover;
+    height: 500px;
+  }
+
+  .wrapper4,
+  .wrapper2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .svg-tnw,
+  .insightp,
+  .black-date {
+    display: none;
+  }
+
+  .black h2,
+  .blue h2,
+  .yellow h2 {
+    font-size: 20px;
+  }
+
+  .black-text {
+    margin-top: -15px;
+  }
+
+  .img-section {
+    width: 100px;
+  }
+
+  .greens {
+    display: flex;
+    margin-bottom: -150px;
+  }
+
+  .greens h4,
+  .author {
+    margin-left: 10px;
+  }
+
+  .greens h4 {
+    font-size: 10px;
+  }
+
+  .price {
+    color: lightgrey;
+    margin-left: 10px;
+  }
+
+  .section1 .wrapper .green1 a div {
+    background: url(../images/section1-1.jfif) no-repeat;
+    background-size: contain;
+  }
+
+  .section1 .wrapper .green2 a div {
+    background: url(../images/section1-2.jfif) no-repeat;
+    background-size: contain;
+  }
+
+  .section1 .wrapper .green3 a div {
+    background: url(../images/section1-3.jfif) no-repeat;
+    background-size: contain;
+  }
+
+  .section1 .wrapper .green4 a div {
+    background: url(../images/section1-4.jfif) no-repeat;
+    background-size: contain;
+  }
+
+  .section1 .wrapper .green5 a div {
+    background: url(../images/section1-5.jfif) no-repeat;
+    background-size: contain;
+  }
+
+  .section1 .wrapper .green6 a div {
+    background: url(../images/section1-6.jfif) no-repeat;
+    background-size: contain;
+  }
+
+  .section1 .wrapper .green7 a div {
+    background: url(../images/section1-7.jfif) no-repeat;
+    background-size: contain;
+  }
+
+  .section1 .wrapper .green8 a div {
+    background: url(../images/section1-8.jfif) no-repeat;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 796px) and (max-width: 1115px) {
+  .hidden,
+  .hidde,
+  .bars,
+  .right-nav,
+  .advert,
+  .job,
+  .svg-tnw,
+  .black-date {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .logo img {
+    width: 100px;
+    height: 75px;
+  }
+
+  .left-nav {
+    display: flex;
+    padding: 13px 0 13px 13px;
+    margin-left: 20px;
+  }
+
+  .socials-nav {
+    margin-left: 40px;
+  }
+
+  .right-nav {
+    display: block;
+    border: 1px solid lightgrey;
+    padding: 15px;
+    margin-right: 15px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .p,
+  .o,
+  .l,
+  .q,
+  .r {
+    display: none;
+  }
+
+  .articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wrapper2,
+  .wrapper4,
+  .wrapper {
+    display: grid;
+    grid-gap: 10px;
+  }
+
+  .add-info {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .section2 .add-info li {
+    padding: 0;
+  }
+
+  .lastlightblue {
+    display: none;
+  }
+
+  .black-text {
+    margin-top: 175px;
+  }
+
+  .section1 {
+    margin-top: 100px;
+  }
+
+  .wrapper,
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .section1,
+  .section2,
+  .articles {
+    width: 90%;
+  }
+
+  .blue h2,
+  .yellow h2 {
+    font-size: 20px;
+  }
+
+  .black h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1115px) {
+  .black-text {
+    margin-bottom: 30px;
+  }
+
+  .latest {
+    background-color: rgba(255, 68, 34, 0.06);
+  }
+
+  .blue h2,
+  .yellow h2 {
+    font-size: 20px;
+  }
+
+  .section1 .wrapper .green1 a div {
+    background: url(../images/section1-1.jfif) no-repeat;
+    background-size: cover;
+  }
+
+  .section1 .wrapper .green2 a div {
+    background: url(../images/section1-2.jfif) no-repeat;
+    background-size: cover;
+  }
+
+  .section1 .wrapper .green3 a div {
+    background: url(../images/section1-1.jfif) no-repeat;
+    background-size: cover;
+  }
+
+  .section1 .wrapper .green4 a div {
+    background: url(../images/section1-4.jfif) no-repeat;
+    background-size: cover;
+  }
+
+  .section1 .wrapper .green5 a div {
+    background: url(../images/section1-5.jfif) no-repeat;
+    background-size: cover;
+  }
+
+  .section1 .wrapper .green6 a div {
+    background: url(../images/section1-6.jfif) no-repeat;
+    background-size: cover;
+  }
+
+  .section1 .wrapper .green7 a div {
+    background: url(../images/section1-7.jfif) no-repeat;
+    background-size: cover;
+  }
+
+  .section1 .wrapper .green8 a div {
+    background: url(../images/section1-8.jfif) no-repeat;
+    background-size: cover;
+  }
+}
